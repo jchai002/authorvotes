@@ -17,15 +17,4 @@ class AuthorvotesVariable
     {
         return craft()->authorvotes->getVotes($userId);
     }
-
-    /**
-     * Increment count
-     *
-	 * @param int $userId
-     */
-    public function increment($userId)
-    {
-        craft()->authorvotes->increment($userId);
-    }
-
 }
